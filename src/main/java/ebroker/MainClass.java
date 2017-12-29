@@ -2,7 +2,7 @@ package ebroker;
 
 public class MainClass {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		new MainClass().saludar("Pepe");
 	}
 

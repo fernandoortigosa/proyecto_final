@@ -20,7 +20,7 @@ public class MainClassTest {
 		String nombre = "Paco";
 		String mensaje = mainClass.crearMensaje(nombre);
 
-		assertEquals(mensaje, "Hola Paco");
+		assertEquals("Hola Paco", mensaje);
 
 	}
 
@@ -34,7 +34,7 @@ public class MainClassTest {
 	}
 
 	@Test
-	public void testMain() throws Exception {
+	public void testMain() {
 
 		String[] args = {};
 
