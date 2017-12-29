@@ -18,7 +18,7 @@ public class MainClassTest {
 	public void testCrearMensaje() {
 
 		String nombre = "Paco";
-		Sring mensaje = mainClass.crearMensaje(nombre);
+		String mensaje = mainClass.crearMensaje(nombre);
 
 		assertEquals(mensaje, "Hola Paco");
 
@@ -34,10 +34,10 @@ public class MainClassTest {
 	}
 
 	@Test
-	public void testMain() {
+	public void testMain() throws Exception {
 
 		String[] args = {};
-		
+
 		mainClass.main(args);
 
 		assertTrue(true);
