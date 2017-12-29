@@ -1,0 +1,16 @@
+plugins {
+	id "org.sonarqube" version "2.6"
+}
+
+group 'ebroker'
+version '0.1'
+
+apply plugin:'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testCompile "junit:junit:4.11"
+}
